@@ -4,3 +4,53 @@
     box-sizing: border-box;
 }
 
+body {
+    font-style: Arial, sans-serif;
+}
+
+
+
+/* UTILITY */
+
+.bg-black{
+    background-color: black;
+
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+/* LAYOUT */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.img-contain {
+    padding: 70px;
+    width: 100vw;
+}
+.col-14 {
+    width: 14%;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    height: 150px;
+    background-color: gold;
+    border: 1px solid white;
+}
