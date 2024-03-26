@@ -8,14 +8,15 @@ body {
     font-style: Arial, sans-serif;
 }
 
+main {
+    background-color: black;
+    height: calc(100vh - 60px);
+    width: 100vw;
+}
+
 
 
 /* UTILITY */
-
-.bg-black{
-    background-color: black;
-
-}
 
 .d-flex {
     display: flex;
@@ -25,15 +26,26 @@ body {
     flex-wrap: wrap;
 }
 
+.vw-100 {
+    width: 100vw;
+}
+
+.position-relative{
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+/* FINE UTILITY */
 
 
 
-/* LAYOUT */
+/* LAYOUT MAIN*/
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    
 }
 
 .row {
@@ -43,14 +55,59 @@ body {
 }
 
 .img-contain {
-    padding: 70px;
+    padding: 70px 60px 20px 70px;
     width: 100vw;
+    height: calc(100vh - 60px);
 }
 .col-14 {
     width: 14%;
     margin-right: 5px;
     margin-bottom: 10px;
-    height: 150px;
+    /* height: 150px;
     background-color: gold;
-    border: 1px solid white;
+    border: 3px solid silver; */
+    position: relative;
+}
+ /* FINE LAYOUT MAIN */
+
+
+
+
+/* LAYOUT FOOTER */
+
+ .col-25 {
+    width: 25%;
+
+}
+
+.col-50 {
+    width: 50%;
+
+}
+
+.footer-content {
+    height: 60px;
+    background-color: blueviolet;
+    border: 2px solid gold;
+}
+
+/* FINE LAYOUT FOOTER */
+
+.name-mic img {
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.PincoPallo {
+    position: absolute;
+    bottom : 0;
+}
+
+.sea {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
 }
